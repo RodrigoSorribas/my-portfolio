@@ -1,0 +1,57 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+section {
+  width: 100%;
+  max-width: 800px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  font-weight: 600;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+a:hover {
+  opacity: 80%;
+}
+
+.flag {
+  width: auto;
+  height: 28px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.skill-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  padding-right: 2.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.mail {
+  color: cornflowerblue;
+}
